@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="x-icon" href="./logo_chính-removebg-preview.png">   
+    <title>Travel Booking</title>
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        
+       <h1>Pikkid Travel</h1>
+       <a class="buy" href="./indexdk.html">Đăng Ký</a><a class="buy" href="./indexdn.html">Đăng Nhập</a>
+        <style>
+        
+            .search{
+                display: flex;
+                justify-content: end;
+                align-items:end;
+            }
+            #search-box{
+                background-color: #4eadad;
+                border-radius: 30px;
+                
+            }
+            #search-box #search-text{
+                border: none;
+                outline: none;
+                background: none;
+                /* padding: 10px 15px; */
+                font-size: 18px;
+                width: 0;
+                padding: 0;
+                transition: all 0.25s ease-in-out;
+    
+            }
+            #search-box:hover #search-text, #search-box #search-text:valid{
+                width: 300px;
+                padding: 10px 0px 10px 15px;
+                
+    
+            }
+    
+    
+            #search-box #search-btn{
+                background-color: #4eadad;
+                cursor: pointer;
+                border: none;
+                padding: 14px 16px;
+                border-radius: 50%;
+                font-size: 18px;
+            }
+    
+        </style>
+     <div class="search">
+        <!-- <form action="" id="search-box">
+            <input type="text" id="search-text"
+            placeholder="Bạn muốn tìm gì?" required>
+            <button id="search-btn"><i class="fa-solid fa-magnifying-glass" style="color: rgb(0, 0, 0);"></i></button>
+        </form> -->
+    </div>
+    </header>
+    
+    
+    <nav>
+        <img src="./mixivivu (1).png" alt="">
+        <ul>
+            <style>
+                nav {
+    display: flex;
+    position: absolute;
+    /* background-color: #95d8d8; */
+   
+}
+
+nav ul {
+    list-style-type: none;
+ 
+    padding: 0;
+    overflow: hidden;
+    margin-top: 40px;
+}
+
+nav li {
+    float: left;
+}
+
+nav a {
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #77dada;
+   
+}
+            </style>
+            
+            <li><a href=""></a></li>
+            <li><a href=""></a></li>
+            
+        </ul>
+        
+        
+        
+    </nav>
+
+    <div class="video">
+        <video autoplay muted loop style="width: 900px;height: 900px;">
+           <source src="./Mixivivuduthuyen (1).mp4" type="">
+        </video> 
+      </div>
+      <div class="products">
+        <ul>
+            
+        </ul>
+
+      </div>
+      
+
+        <!-- Add more product articles as needed -->
+    </section>
+    <div id="backtop">
+        <i class="fa-solid fa-chevron-up" style="color: #000000;"></i>
+       
+   </div>
+   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="./index.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
+<script>
+    $(document).ready(function(){
+        $(Window).scroll(function(){
+            if($(this).scrollTop()){
+                $('backtop').fadeIn();
+            }else{
+                $('backtop').fadeOut();
+
+            }
+        });
+        $("#backtop").click(function(){
+            $('html,body').animate({
+                scrollTop: 0
+            },1000);
+        });
+    });
+</script>
+      
+
+    
+
+    <footer>
+        <img src="./logo_chính-removebg-preview.png" alt="">
+        <p>Pikkid travel - đối tác tin cậy của các hãng du thuyền lớn,<br> mang đến cho bạn chương trình ưu đãi độc quyền cho tour du thuyền Hạ Long. <br> Khám phá Hạ Long với Pikkid travel- trải nghiệm du thuyền đẳng cấp và nhận những ưu đãi đặc biệt từ chúng tôi.</p>
+        <a class="contact" href="https://www.facebook.com/ace.phu.7758"><i class="fa-brands fa-facebook" style="color: #ffffff;"></i></a>
+        <a href="https://www.instagram.com/ctriiiiii/"><i class="fa-brands fa-instagram" style="color: #ffffff;"></i></a>
+        <p>&copy; 2023 Pikkid Travel.</p>
+        
+    </footer>
+    
+</body>
+</html>

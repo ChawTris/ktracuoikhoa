@@ -1,0 +1,203 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    /* background-image: url(./gach-viglacera-uh-6801-60x60-mau-trang-van-khoi-dep.jpg); */
+    background-image: url(./van.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+
+header {
+    background-color: #77dada;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #ffffff;
+    text-align: center;
+    padding: 5px;
+   
+}
+
+/* nav {
+    display: flex;
+   
+}
+
+nav ul {
+    list-style-type: none;
+ 
+    padding: 0;
+    overflow: hidden;
+    margin-top: 40px;
+}
+
+nav li {
+    float: left;
+}
+
+nav a {
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #77dada;
+   
+} */
+
+section {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    /* background-color: #fff; */
+    background-image:url(./gach-viglacera-uh-6801-60x60-mau-trang-van-khoi-dep.jpg) ;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+}
+.video{
+    /* margin: 0px;
+    padding: 0px; */
+    display: flex;
+    justify-content: center;
+    border-radius: 24px;
+
+}
+.product-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 20px auto;
+
+}
+
+.product {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    margin: 10px;
+}
+.product:hover {
+    box-shadow: #333;
+}
+h3{
+    font-size: 18px; 
+    color: #111;
+    margin-top: 0px;
+    margin-bottom: 50px;
+    text-align: center;
+
+}
+#backtop{
+    width: 50px;
+    height: 50px;
+    background-color: #77dada;
+    background-size: cover;
+    
+    background-repeat: no-repeat;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 40px;
+    right: 20px;
+    cursor: pointer;
+}
+
+
+
+.product img {
+    width: 230px;
+    height: 230px;
+    height: auto;
+    border-radius: 4px;
+}
+.maps{
+    border-radius: 20px;
+}
+
+.price {
+    font-weight: bold;
+}
+.price1 {
+    text-decoration:line-through
+    
+}
+
+.buy {
+    background-color: #77dada;
+    color: #fff;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 80px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.buy1 {
+    background-color: #ffffff;
+    color: #000000;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 80px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.star {
+    background-color: #000000;
+    color: #fff700;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 80px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.buy:hover {
+    background-color: #2aadad;
+}
+
+.cart {
+    background-color: #eee;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 300px;
+}
+
+.cart ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.cart button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.cart button:hover {
+    background-color: #45a049;
+}
+
+.total {
+    font-weight: bold;
+    margin-top: 10px;
+}
